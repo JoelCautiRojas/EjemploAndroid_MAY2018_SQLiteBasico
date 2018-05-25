@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Ejemplo SQLite Basico</string>
+    <string name="repositorio">https://github.com/JoelCautiRojas/Ejemplo_SQLite_basico_MAY2018.git</string>
+
+    <!-- Firma -->
+    <string name="firma_autor">Joel Ruben Cauti Rojas</string>
+    <string name="firma_pais">LIMA - PERÚ</string>
+    <string name="firma_telefono_autor">+051 – 963 315 470</string>
+    <string name="firma_ejercicio_titulo">Ejercicio SQLite Basico</string>
+    <string name="firma_web">http://www.programadoresperuanos.com</string>
+    <string name="firma_titulo">PROGRAMADORES PERUANOS</string>
+    <string name="firma_descripcion_logo">Imagen miniatura del logo Club del Caos</string>
+
+    <!-- Imagenes -->
+    <string name="icono1">Icono de Android</string>
+
+    <!-- Menu -->
+    <string name="opcion1_menu1">Inicio</string>
+    <string name="opcion2_menu1">Acerca de Nosotros</string>
+    <string name="input_hint1">Codigo</string>
+    <string name="input_hint2">Nombres</string>
+    <string name="input_hint3">D.N.I.</string>
+    <string name="input_hint4">Direccion</string>
+    <string name="parrafo1">Ejemplo de uso basico SQLite, select, insert, update, delete y desplazamiento del cursor</string>
+    <string name="logo1">Logo de Club del Caos</string>
+
+</resources>
