@@ -1,27 +1,48 @@
 <resources>
-    <string name="app_name">Ejemplo SQLite Basico</string>
-    <string name="repositorio">https://github.com/JoelCautiRojas/Ejemplo_SQLite_basico_MAY2018.git</string>
 
-    <!-- Firma -->
-    <string name="firma_autor">Joel Ruben Cauti Rojas</string>
-    <string name="firma_pais">LIMA - PERÚ</string>
-    <string name="firma_telefono_autor">+051 – 963 315 470</string>
-    <string name="firma_ejercicio_titulo">Ejercicio SQLite Basico</string>
-    <string name="firma_web">http://www.programadoresperuanos.com</string>
-    <string name="firma_titulo">PROGRAMADORES PERUANOS</string>
-    <string name="firma_descripcion_logo">Imagen miniatura del logo Club del Caos</string>
+    <!-- Aplicacion General -->
+    <string name="app_name">Ejemplo SQLite Básico</string>
 
     <!-- Imagenes -->
     <string name="icono1">Icono de Android</string>
 
     <!-- Menu -->
-    <string name="opcion1_menu1">Inicio</string>
-    <string name="opcion2_menu1">Acerca de Nosotros</string>
-    <string name="input_hint1">Codigo</string>
-    <string name="input_hint2">Nombres</string>
-    <string name="input_hint3">D.N.I.</string>
-    <string name="input_hint4">Direccion</string>
-    <string name="parrafo1">Ejemplo de uso basico SQLite, select, insert, update, delete y desplazamiento del cursor</string>
-    <string name="logo1">Logo de Club del Caos</string>
+    <string name="opcion1_menu1">Indice</string>
+    <string name="opcion2_menu1">SQLite</string>
+    <string name="opcion3_menu1">Acerca de Nosotros</string>
+
+    <!-- Activity SQLite -->
+    <string name="sqlite_hint1">Codigo</string>
+    <string name="sqlite_hint2">Nombres</string>
+    <string name="sqlite_hint3">D.N.I.</string>
+    <string name="sqlite_hint4">Direccion</string>
+    <string name="sqlite_parrafo1">Ejemplo de uso basico SQLite, select, insert, update, delete y desplazamiento del cursor</string>
+    <string name="sqlite_btnNuevo">NUEVO</string>
+
+    <!-- Activity Indice -->
+    <string name="indice_titulo">Indicaciones:</string>
+    <string name="indice_parrafo1">La aplicacion almacena datos en una base de datos SQLite, suponiendo que necesite guardar una lista de personal, donde requiera un codigo, un nombre, el dni y la dirección.</string>
+    <string name="indice_parrafo2">El codigo sera numerico y la base de datos lo generara de forma automatica incrementando de uno en uno, los demas campos son texto.</string>
+    <string name="indice_parrafo3">En la parte inferior tiene 9 botones los cuales le permiten agregar un NUEVO registro, MODIFICAR ó ELIMINAR algun registro.</string>
+    <string name="indice_parrafo4">Tambien se puede hacer una BUSQUEDA de algun registro a travez de su código.</string>
+    <string name="indice_parrafo5">Ademas tiene un boton que permite LIMPIAR los campos de texto y 4 botones para DESPLAZAMIENTO dentro de la lista de registros.</string>
+
+    <!-- Activity Firma -->
+    <string name="firma_repositorio">https://github.com/JoelCautiRojas/EjemploAndroid_MAY2018_SQLiteBasico.git</string>
+    <string name="firma_autorName">Joel Ruben Cauti Rojas</string>
+    <string name="firma_autorPais">LIMA - PERÚ</string>
+    <string name="firma_autorPhone">+051 – 963 315 470</string>
+    <string name="firma_ejercicioTitulo">Ejercicio SQLite Básico</string>
+    <string name="firma_enlaceWeb">http://www.programadoresperuanos.com</string>
+    <string name="firma_titulo">PROGRAMADORES PERUANOS</string>
+    <string name="firma_logoDescripcion">Imagen miniatura del logo Programadores Peruanos</string>
+    <string name="firma_autorEnlace">https://www.facebook.com/joelcauti</string>
+    <string name="firma_parrafo1">El repositorio de este ejercicio lo puedes encontrar en:</string>
+    <string name="firma_parrafo2">Ejercicio desarrollado por:</string>
+    <string name="sqlite_btnBusqueda">BUSQUEDA</string>
+    <string name="sqlite_btnModificar">MODIFICAR</string>
+    <string name="sqlite_btnEliminar">ELIMINAR</string>
+    <string name="sqlite_btnLimpiar">LIMPIAR</string>
+
 
 </resources>

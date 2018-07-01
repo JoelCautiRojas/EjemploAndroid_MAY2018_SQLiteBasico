@@ -6,7 +6,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 
 public class AsistenteSQLite extends SQLiteOpenHelper {
 
-    String tabla1 = "alumnos";
+    String tabla1 = "trabajadores";
     String cadenaSQL1 = "CREATE TABLE "+tabla1+"(codigo INTEGER PRIMARY KEY AUTOINCREMENT, nombres VARCHAR(255), dni VARCHAR(255), direccion VARCHAR(255))";
     String cadenaSQL2 = "DROP TABLE IF EXISTS "+tabla1;
 

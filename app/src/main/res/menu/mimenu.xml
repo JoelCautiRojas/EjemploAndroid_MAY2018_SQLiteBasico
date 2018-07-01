@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
         android:id="@+id/opcion1"
@@ -7,4 +8,7 @@
     <item
         android:id="@+id/opcion2"
         android:title="@string/opcion2_menu1" />
+    <item
+        android:id="@+id/opcion3"
+        android:title="@string/opcion3_menu1" />
 </menu>

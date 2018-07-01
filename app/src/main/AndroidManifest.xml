@@ -4,11 +4,11 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_icono_clubdelcaos"
+        android:icon="@mipmap/ic_icono_programadoresperuanos"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/ClubdelCaosTheme">
+        android:theme="@style/ProgramadoresPeruanosTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +16,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Main2Activity"></activity>
+        <activity
+            android:label="SQLite"
+            android:name=".Main2Activity" />
+        <activity
+            android:label="Acerca de Nosotros"
+            android:name=".Main3Activity" />
     </application>
 
 </manifest>
